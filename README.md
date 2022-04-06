@@ -1,6 +1,6 @@
 # Android-QA-Engineer-Assignment
 
-I've created a few scenarios using an appium cucumber Java setup.
+I've created a few scenarios using an appium cucumber Java setup. I've stored the Recipe App within this project to make things easier.
 
 ## Project structure
 the main sections of the project are 
