@@ -23,7 +23,7 @@ note: Once you have this project on your local machine, you need to launch the a
 
 ![image](https://user-images.githubusercontent.com/20359959/161900571-a0b86291-d269-4880-8dbc-1be23213e9f8.png)
 
-3. Using Android Studio IDE to execute the test from the **RunCucumberTest.class** by right click 
+3. Using Android Studio IDE to execute the test from the **RunCucumberTest.class** by right clicking 
 
 ![image](https://user-images.githubusercontent.com/20359959/161893714-52b17b81-2405-4441-95ea-91deed0122c5.png)
 
