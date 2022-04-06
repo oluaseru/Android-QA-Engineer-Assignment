@@ -1,12 +1,11 @@
 # Android-QA-Engineer-Assignment
 
 I've created a few scenarios using an appium cucumber Java setup.
-And I've used the Cucumber framework to write user scenarios in BDD format, which sits on top of the logic.
 
 ## Project structure
 the main sections of the project are 
 - Feature file - BBD scenarios 
-- Steps definitions files - the feature file steps are bound to logic
+- Steps definitions files - the Steps from the feature file which are bound to logic
 - Page Objects (POM) - lower-level actions which are performed on the screen
 
 ![image](https://user-images.githubusercontent.com/20359959/161903049-c6005c76-d8ab-4c45-add1-9a00dea0a6d7.png)
