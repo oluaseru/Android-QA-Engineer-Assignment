@@ -9,9 +9,12 @@ the main sections of the project are
 - Steps definitions files - the feature file steps are bound to logic
 - Page Objects (POM) - lower-level actions which are performed on the screen
 
+![image](https://user-images.githubusercontent.com/20359959/161903049-c6005c76-d8ab-4c45-add1-9a00dea0a6d7.png)
+
+
 
 ## How to execute the tests
-1. You'll need to download Appium desktop client - https://github.com/appium/appium-desktop/releases/tag/v1.22.2
+1. You'll need to download Appium Server GUI client - https://github.com/appium/appium-desktop/releases/tag/v1.22.2
 - If you're on a Mac machine, choose the asset - Appium-Server-GUI-mac-1.22.2.dmg
 - for Windows Machine, choose the asset - Appium-Server-GUI-windows-1.22.2.exe
 
