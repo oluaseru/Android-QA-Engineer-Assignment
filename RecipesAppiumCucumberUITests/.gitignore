@@ -1,0 +1,11 @@
+.idea
+.gradle
+out
+target
+test-output
+null
+*.app
+*.iml
+*.ipa
+test-output
+.DS_Store
