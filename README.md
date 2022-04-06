@@ -1,9 +1,9 @@
 # Android-QA-Engineer-Assignment
 
-I've created a few scenarios using an appium cucumber Java setup. I've stored the Recipe App within this project to make things easier.
+I've created a few scenarios using an appium cucumber Java setup. I've stored the Recipe App within this project to make things easier under the folder resource > app > android.
 
 ## Project structure
-the main sections of the project are 
+The main sections of the project are 
 - Feature file - BBD scenarios 
 - Steps definitions files - the Steps from the feature file which are bound to logic
 - Page Objects (POM) - lower-level actions which are performed on the screen
