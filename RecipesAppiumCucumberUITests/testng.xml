@@ -4,7 +4,7 @@
 
 <suite name="TestNg Cucumber Suite" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
 
-    <test name="Recipes cucumber tests">
+    <test name="Recipes cucumber UI tests">
         <!--ensure your local simulator is specified in the appium_capabilities.json file -->
         <parameter name="device" value="${device}"/>
         <!--ensure platform is in lowercase ios android-->

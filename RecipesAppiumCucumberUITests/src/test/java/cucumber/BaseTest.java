@@ -5,7 +5,6 @@ import cucumber.utils.AppiumDriverBase;
 import cucumber.utils.ThreadLocalDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
 
 public class BaseTest {
     AppiumDriverBase appiumDriverBase = new AppiumDriverBase();
@@ -13,9 +12,8 @@ public class BaseTest {
 
 
     @BeforeMethod(alwaysRun = true)
-    @Parameters({"device", "platform"})
-    public void beforeMethod(String device, String platform) throws Exception {
-        appiumDriverBase.createInstance(device, platform);
+    public void beforeMethod() throws Exception {
+        appiumDriverBase.createInstance();
         homeScreen = new HomeScreen(ThreadLocalDriver.getTLDriver());
     }
 

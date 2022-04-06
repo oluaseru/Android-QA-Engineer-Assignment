@@ -7,9 +7,7 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.PickleEventWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 import cucumber.utils.AppiumServer;
-import cucumber.utils.PropertyReader;
 import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.*;
 
 
@@ -20,7 +18,6 @@ import org.testng.annotations.*;
         snippets = SnippetType.CAMELCASE,
         monochrome = true,
         strict = true,
-        // plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
         plugin = {"pretty", "json:target/report.json", "de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"}
 )
 
