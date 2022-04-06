@@ -1,6 +1,5 @@
 package cucumber.utils;
 
-import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -42,9 +41,6 @@ AppiumDriverBase {
         caps.setCapability("avd", ReadJsonArray.deviceName);
         caps.setCapability(MobileCapabilityType.APP, (System.getProperty("user.dir") + ReadJsonArray.appFilePath));
         caps.setCapability("retryBackoffTime", ReadJsonArray.retryBackoffTime);
-        //caps.setCapability("nativeWebTap", ReadJsonArray.nativeWebTap);
-        //caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "200");
-        //caps.setCapability("useNewWDA", "true");
         caps.setCapability(MobileCapabilityType.NO_RESET, false);
         caps.setCapability(MobileCapabilityType.FULL_RESET, false);
         //set threadLocalDriver

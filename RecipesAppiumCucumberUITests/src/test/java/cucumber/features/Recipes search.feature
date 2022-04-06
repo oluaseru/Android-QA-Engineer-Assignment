@@ -5,7 +5,7 @@ Feature:
   Scenario Outline: User should be able to find a recipe using text search
     Given I'm on the landing page
     When I search for "<searchQuery>"
-    Then I should se displayed results containing "<searchQuery>"
+    Then I should see displayed results containing "<searchQuery>"
 
     Examples:
       | searchQuery |

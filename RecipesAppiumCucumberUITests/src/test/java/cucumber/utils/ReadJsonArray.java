@@ -12,17 +12,13 @@ import java.io.IOException;
 public class ReadJsonArray {
     static String deviceConfig;
     static String deviceName;
-    static String UDID;
     static String platformVersion;
-    static String wdaLocalPort;
 
     static String appFilePath;
     static String newCommandTimeout;
     static String platformName;
-    static String useNewWDA;
     static String showXcodeLog;
     static String automationName;
-    static String nativeWebTap;
     static String retryBackoffTime;
 
     public static String userEmail;

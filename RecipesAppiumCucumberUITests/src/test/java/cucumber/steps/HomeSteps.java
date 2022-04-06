@@ -7,10 +7,6 @@ import cucumber.api.java.en.When;
 import cucumber.pageobjects.HomeScreen;
 import cucumber.utils.ThreadLocalDriver;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
 
@@ -19,7 +15,7 @@ public class HomeSteps extends BaseTest {
     HomeScreen homeScreen = new HomeScreen(ThreadLocalDriver.getTLDriver());
 
     @Given("I'm on the landing page")
-    public void i_m_on_the_landing_page() {
+    public void im_on_the_landing_page() {
         homeScreen.isSearchTextboxDisplayed();
     }
 
@@ -28,7 +24,7 @@ public class HomeSteps extends BaseTest {
         homeScreen.SetSearchText(searchTerm);
     }
 
-    @Then("I should se displayed results containing {string}")
+    @Then("I should see displayed results containing {string}")
     public void i_should_se_displayed_results_containing(String searchTerm) {
         assertThat(homeScreen.getSearchResultTitle(), containsString(searchTerm));
     }
